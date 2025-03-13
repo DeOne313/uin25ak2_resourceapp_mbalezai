@@ -1,14 +1,15 @@
 import React from "react";
-import "../style/style.scss"
 import Nav from "./nav";
+import "../style/style.scss";
+
 
 const Layout = ({ children }) => {
   return (
     <section>
-      <header>
-        <Nav />
-      </header>
-      {children}
+      <Nav />
+      <main className="content">
+        {children}
+      </main>
     </section>
   );
 };

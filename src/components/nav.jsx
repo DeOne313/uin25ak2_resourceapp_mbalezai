@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav>
-      <Link to="/html" id="knpHTML">HTML</Link>
-      <Link to="/css" id="knpCSS">CSS</Link>
-      <Link to="/javascript" id="knpJScript">JavaScript</Link>
-      <Link to="/react" id="knpReact">React</Link>
-      <Link to="/sanity-headless-cms" id="knpSHCMS">Sanity and Headless CMS</Link>
+    <nav className="buttons">
+      <Link to="html" className="tab">HTML</Link>
+      <Link to="css" className="tab">CSS</Link>
+      <Link to="javascript" className="tab">JavaScript</Link>
+      <Link to="react" className="tab">React</Link>
+      <Link to="headless-cms" className="tab">Sanity and headless CMS</Link>  
     </nav>
   );
 };
