@@ -5,7 +5,7 @@ import "../style/style.scss";
 
 const Layout = ({ children }) => {
   return (
-    <section>
+    <section className="main">
       <Nav />
       <main className="content">
         {children}

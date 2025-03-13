@@ -1,4 +1,5 @@
 import { resources } from "../assets/resources"; 
+import PageTitle from "./pageTitle";
 
 const Resources = ({ category }) => {
     const filteredResources = resources.filter(resource => resource.category === category);
@@ -6,7 +7,8 @@ const Resources = ({ category }) => {
     console.log(filteredResources); 
   
     return (
-      <section>
+      <section className="ress">
+        <PageTitle title={`Ressurser for ${category}`} />
         <h2>Resources for {category}</h2>
         <ul>
           {filteredResources.map((resource, index) => (

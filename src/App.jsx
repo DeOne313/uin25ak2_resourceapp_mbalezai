@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 import Resources from "./components/Resources";
+import PageTitle from "./components/pageTitle";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="react" element={<Resources category="react" />} />
           <Route path="headless-cms" element={<Resources category="headless-cms" />} />
         </Routes>
+        <PageTitle title="ressursarkiv" />
       </Layout>
   );
 }

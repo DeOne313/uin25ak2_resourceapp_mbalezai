@@ -8,7 +8,7 @@ const Nav = () => {
       <Link to="css" className="tab">CSS</Link>
       <Link to="javascript" className="tab">JavaScript</Link>
       <Link to="react" className="tab">React</Link>
-      <Link to="headless-cms" className="tab">Sanity and headless CMS</Link>  
+      <Link to="headless-cms" className="tabcms">Sanity and headless CMS</Link>  
     </nav>
   );
 };
