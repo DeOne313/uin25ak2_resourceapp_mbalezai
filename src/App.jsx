@@ -13,7 +13,7 @@ function App() {
           <Route path="react" element={<Resources category="react" />} />
           <Route path="headless-cms" element={<Resources category="headless-cms" />} />
         </Routes>
-        <PageTitle title="ressursarkiv" />
+        <PageTitle title="Ressursarkiv" />
       </Layout>
   );
 }
